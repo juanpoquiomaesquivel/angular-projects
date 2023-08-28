@@ -22,12 +22,8 @@ import { NotificationComponent } from './notification/notification.component'; /
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-// npm install --save bootstrap
-// "node_modules/bootstrap/dist/css/bootstrap.min.css" (in angular.json file, styles)
-/* Components 
-https://www.youtube.com/watch?v=dP9RzPBcnqA&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=7&pp=iAQB - What is a Component
-https://www.youtube.com/watch?v=UwTMjTt8jME&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=8&pp=iAQB - Creating a Custom Component
-https://www.youtube.com/watch?v=7iNAj4aU3ow&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=9&pp=iAQB - Template property of Component
-https://www.youtube.com/watch?v=l-H-sDb7ChY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=10&pp=iAQB - styles property of Component
-https://www.youtube.com/watch?v=bq9mvcuAmcQ&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=11&pp=iAQB - Using Bootstrap in Angular
-https://www.youtube.com/watch?v=ZQmTyNHXJNE&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=12&pp=iAQB - Different Selectors in Angular */
+
+/* Data Binding
+https://www.youtube.com/watch?v=r8U2DVRArdY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=13&pp=iAQB - What is data binding
+https://www.youtube.com/watch?v=mT5q6zFzs3k&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=14&pp=iAQB - What is String Interpolation
+https://www.youtube.com/watch?v=k0sbLR5X2oY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=15&pp=iAQB - What is Property Binding */

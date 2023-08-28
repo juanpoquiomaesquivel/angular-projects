@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
+  sitename: string = 'eShopping';
 }
 
 // component generated with the next command: ng generate component ~name~ | ng g c ~name~
