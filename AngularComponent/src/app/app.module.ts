@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
 import { NotificationComponent } from './notification/notification.component'; 
 import { SearchComponent } from './search/search.component'; // here it's declared
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchComponent } from './search/search.component'; // here it's declar
     SearchComponent // also here
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -26,4 +28,4 @@ import { SearchComponent } from './search/search.component'; // here it's declar
 export class AppModule { }
 
 /* Data Binding
-https://www.youtube.com/watch?v=qIgRaYGso34&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=16&pp=iAQB - What is Event Binding */
+https://www.youtube.com/watch?v=qDpn2QCPNaA&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=17&pp=iAQB - Two way data binding */
