@@ -30,5 +30,4 @@ import { ProductsComponent } from './products/products.component';
 export class AppModule { }
 
 /* Directives
-https://www.youtube.com/watch?v=Xc58hRwsvR8&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=18&pp=iAQB - What is Directives
-https://www.youtube.com/watch?v=U-rEXMveeaA&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=19&pp=iAQB - ngFor Directive in Angular */
+https://www.youtube.com/watch?v=wtJ1ctJVXgM&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=20&pp=iAQB - ngStyle Directive in Angular */
