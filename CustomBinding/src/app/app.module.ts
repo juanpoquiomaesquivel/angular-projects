@@ -25,4 +25,4 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppModule { }
 /* Data Binding
-https://www.youtube.com/watch?v=O50sbGhm2yE&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=25&pp=iAQB - Custom event Binding: @Output Decorator */
+https://www.youtube.com/watch?v=vraUdaw5oes&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=26&pp=iAQB - Implementing Search Functionality */
