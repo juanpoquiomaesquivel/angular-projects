@@ -18,3 +18,5 @@ import { Comp2Component } from './comp2/comp2.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+/* View Encapsulation 
+https://www.youtube.com/watch?v=X-1TBjBx6pc&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=29&pp=iAQB - What is View Encapsulation in Angular */
