@@ -16,3 +16,5 @@ import { DemoComponent } from './demo/demo.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+/* Data Binding 
+https://www.youtube.com/watch?v=O8UxAgcF-ks&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=33&pp=iAQB - @ContentChild in Angular */
