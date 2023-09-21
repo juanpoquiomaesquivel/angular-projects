@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { SetBackgroundDirective } from './CustomDirective/setbackground.directive';
+import { HighlightDirective } from './CustomDirective/highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SetBackgroundDirective
+    SetBackgroundDirective,
+    HighlightDirective
   ],
   imports: [
     BrowserModule
@@ -17,4 +19,4 @@ import { SetBackgroundDirective } from './CustomDirective/setbackground.directiv
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=DxfAEhdOl_0&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=34&pp=iAQB - Custom Attribute Directive */
+https://www.youtube.com/watch?v=7LOu-xF9ML0&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=35&pp=iAQB - Renderer2 in Angular */
