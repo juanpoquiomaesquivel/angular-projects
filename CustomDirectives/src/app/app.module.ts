@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SetBackgroundDirective } from './CustomDirective/setbackground.directive';
 import { HighlightDirective } from './CustomDirective/highlight.directive';
+import { HoverDirective } from './CustomDirective/hover.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     SetBackgroundDirective,
-    HighlightDirective
+    HighlightDirective,
+    HoverDirective
   ],
   imports: [
     BrowserModule
@@ -19,4 +21,4 @@ import { HighlightDirective } from './CustomDirective/highlight.directive';
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=7LOu-xF9ML0&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=35&pp=iAQB - Renderer2 in Angular */
+https://www.youtube.com/watch?v=blErqI-o1TM&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=36&pp=iAQB - @HostListner in Angular */
