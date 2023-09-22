@@ -6,6 +6,7 @@ import { SetBackgroundDirective } from './CustomDirective/setbackground.directiv
 import { HighlightDirective } from './CustomDirective/highlight.directive';
 import { HoverDirective } from './CustomDirective/hover.directive';
 import { BetterhighlightDirective } from './CustomDirective/betterhighlight.directive';
+import { ClassDirective } from './CustomDirective/class.directive';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BetterhighlightDirective } from './CustomDirective/betterhighlight.dire
     SetBackgroundDirective,
     HighlightDirective,
     HoverDirective,
-    BetterhighlightDirective
+    BetterhighlightDirective,
+    ClassDirective
   ],
   imports: [
     BrowserModule
@@ -23,4 +25,4 @@ import { BetterhighlightDirective } from './CustomDirective/betterhighlight.dire
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=mnHhdlMefug&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=38&pp=iAQB - Binding Directive Properties */
+https://www.youtube.com/watch?v=_taBk-4Ddr0&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=39&pp=iAQB - Custom appClass directive */
