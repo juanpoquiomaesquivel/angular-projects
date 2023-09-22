@@ -23,4 +23,4 @@ import { BetterhighlightDirective } from './CustomDirective/betterhighlight.dire
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=Cz0spkSzWSU&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=37&pp=iAQB - @HostBinding in Angular */
+https://www.youtube.com/watch?v=mnHhdlMefug&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=38&pp=iAQB - Binding Directive Properties */
