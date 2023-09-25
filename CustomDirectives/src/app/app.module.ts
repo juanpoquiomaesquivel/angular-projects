@@ -7,6 +7,7 @@ import { HighlightDirective } from './CustomDirective/highlight.directive';
 import { HoverDirective } from './CustomDirective/hover.directive';
 import { BetterhighlightDirective } from './CustomDirective/betterhighlight.directive';
 import { ClassDirective } from './CustomDirective/class.directive';
+import { StyleDirective } from './CustomDirective/style.directive';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ClassDirective } from './CustomDirective/class.directive';
     HighlightDirective,
     HoverDirective,
     BetterhighlightDirective,
-    ClassDirective
+    ClassDirective,
+    StyleDirective
   ],
   imports: [
     BrowserModule
@@ -25,4 +27,4 @@ import { ClassDirective } from './CustomDirective/class.directive';
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=_taBk-4Ddr0&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=39&pp=iAQB - Custom appClass directive */
+https://www.youtube.com/watch?v=3FU7LjHLiDM&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=41&pp=iAQB - Custom appStyle Directive */
