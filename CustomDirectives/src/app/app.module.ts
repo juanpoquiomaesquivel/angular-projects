@@ -8,6 +8,7 @@ import { HoverDirective } from './CustomDirective/hover.directive';
 import { BetterhighlightDirective } from './CustomDirective/betterhighlight.directive';
 import { ClassDirective } from './CustomDirective/class.directive';
 import { StyleDirective } from './CustomDirective/style.directive';
+import { IfDirective } from './CustomDirective/if.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { StyleDirective } from './CustomDirective/style.directive';
     HoverDirective,
     BetterhighlightDirective,
     ClassDirective,
-    StyleDirective
+    StyleDirective,
+    IfDirective
   ],
   imports: [
     BrowserModule
@@ -27,4 +29,5 @@ import { StyleDirective } from './CustomDirective/style.directive';
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=3FU7LjHLiDM&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=41&pp=iAQB - Custom appStyle Directive */
+https://www.youtube.com/watch?v=xP86a-ZtIuE&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=42&pp=iAQB - How Structural Directive Works
+https://www.youtube.com/watch?v=4ldr69qHY8M&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=43&pp=iAQB - Custom Structural Directive */
