@@ -29,5 +29,4 @@ import { IfDirective } from './CustomDirective/if.directive';
 })
 export class AppModule { }
 /* Directives
-https://www.youtube.com/watch?v=xP86a-ZtIuE&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=42&pp=iAQB - How Structural Directive Works
-https://www.youtube.com/watch?v=4ldr69qHY8M&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=43&pp=iAQB - Custom Structural Directive */
+https://www.youtube.com/watch?v=ngqLRRhYBnw&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=44&pp=iAQB - ngSwitch Directive in Angular */
