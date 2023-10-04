@@ -42,7 +42,21 @@ export class AppComponent {
 
   // myObservable = of(this.array1, this.array2, 20, 79, 'Hello');
 
-  myObservable = from(this.array1);
+  myObservable = from(this.array1).pipe(map((val) => {
+    return val * 5;
+  }), filter((val) => {
+    return val >= 30
+  }));//1, 2, 6, 7, 8 => 5, 10, 30, 35, 40
+
+  // transformedObs = this.myObservable.pipe(map((val) => {
+  //   return val * 5;
+  // }), filter((val) => {
+  //   return val >= 30
+  // }))
+
+  // filteredObs = this.transformedObs.pipe(filter((val) => {
+  //   return val >= 30
+  // }))
 
   ngOnInit() {
     this.myObservable.subscribe((val) => {

@@ -15,4 +15,4 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 /* Observables
-https://www.youtube.com/watch?v=btZnsw2mLs0&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=54&pp=iAQB - Different ways of Creating Observable */
+https://www.youtube.com/watch?v=bkk54vMovk8&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=55&pp=iAQB - Understanding Operators of RxJS */
