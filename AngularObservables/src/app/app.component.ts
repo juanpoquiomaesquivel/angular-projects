@@ -1,13 +1,17 @@
 import { Component } from '@angular/core';
 import { Observable, filter, from, map, of } from 'rxjs';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [DataService]
 })
 export class AppComponent {
   title = 'AngularObservables';
+
+  constructor(private dataService: DataService) { }
 
   // USING OBSERVABLE CONSTRUCTOR
   // myObservable = new Observable((observer) => {
@@ -42,11 +46,11 @@ export class AppComponent {
 
   // myObservable = of(this.array1, this.array2, 20, 79, 'Hello');
 
-  myObservable = from(this.array1).pipe(map((val) => {
-    return val * 5;
-  }), filter((val) => {
-    return val >= 30
-  }));//1, 2, 6, 7, 8 => 5, 10, 30, 35, 40
+  // myObservable = from(this.array1).pipe(map((val) => {
+  //   return val * 5;
+  // }), filter((val) => {
+  //   return val >= 30
+  // }));//1, 2, 6, 7, 8 => 5, 10, 30, 35, 40
 
   // transformedObs = this.myObservable.pipe(map((val) => {
   //   return val * 5;
@@ -59,12 +63,12 @@ export class AppComponent {
   // }))
 
   ngOnInit() {
-    this.myObservable.subscribe((val) => {
-      console.log(val);
-    }, (error) => {
-      alert(error.message);
-    }, () => {
-      alert('Observable has complete emitting all values.')
-    });
+    // this.myObservable.subscribe((val) => {
+    //   console.log(val);
+    // }, (error) => {
+    //   alert(error.message);
+    // }, () => {
+    //   alert('Observable has complete emitting all values.')
+    // });
   }
 }
