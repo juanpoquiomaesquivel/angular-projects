@@ -21,4 +21,4 @@ import { FormsModule } from '@angular/forms';
 })
 export class AppModule { }
 /* Observables
-https://www.youtube.com/watch?v=CKyMb3kXN_A&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=56&pp=iAQB - Subjects in RxJS  */
+https://www.youtube.com/watch?v=8j5kvLddNwM&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=57&pp=iAQB - Unsubscribe to an Observable  */

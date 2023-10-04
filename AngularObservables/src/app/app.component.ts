@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Observable, filter, from, map, of } from 'rxjs';
+import { Observable, filter, from, interval, map, of } from 'rxjs';
 import { DataService } from './data.service';
 
 @Component({
@@ -62,6 +62,9 @@ export class AppComponent {
   //   return val >= 30
   // }))
 
+  counterObservable = interval(1000);
+  counterSub;
+
   ngOnInit() {
     // this.myObservable.subscribe((val) => {
     //   console.log(val);
@@ -70,5 +73,15 @@ export class AppComponent {
     // }, () => {
     //   alert('Observable has complete emitting all values.')
     // });
+  }
+
+  unsubscribe() {
+    this.counterSub.unsubscribe();
+  }
+  
+  subscribe() {
+    this.counterSub = this.counterObservable.subscribe((val) => {
+      console.log(val);
+    })
   }
 }
