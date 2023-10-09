@@ -1,7 +1,7 @@
 <div class="main-container">
     <div class="nav-container">
         <ul>
-            <!-- <li
+            <li
                 [routerLinkActive]="'active'"
                 [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -15,9 +15,9 @@
             </li>
             <li [routerLinkActive]="'active'">
                 <a routerLink="Courses">Courses</a>
-            </li> -->
+            </li>
 
-            <li
+            <!-- <li
                 [routerLinkActive]="'active'"
                 [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -31,14 +31,14 @@
             </li>
             <li [routerLinkActive]="'active'">
                 <a routerLink="" fragment="Courses">Courses</a>
-            </li>
+            </li> -->
         </ul>
     </div>
     <div class="component-container">
-        <app-home id="Home"></app-home>
+        <!-- <app-home id="Home"></app-home>
         <app-about id="About"></app-about>
         <app-contact id="Contact"></app-contact>
-        <app-courses id="Courses"></app-courses>
-        <!-- <router-outlet></router-outlet> -->
+        <app-courses id="Courses"></app-courses> -->
+        <router-outlet></router-outlet>
     </div>
 </div>

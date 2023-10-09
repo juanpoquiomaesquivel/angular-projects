@@ -20,7 +20,12 @@ const appRoutes: Routes = [ // here we define the routes
   { path: 'About', component: AboutComponent },
   { path: 'Contact', component: ContactComponent },
   { path: 'Courses', component: CoursesComponent },
-  { path: 'Courses/Course/:id', component: CourseComponent },
+  // { path: 'Courses/Course/:id', component: CourseComponent },
+  {
+    path: 'Courses', children: [
+      { path: 'Course/:id', component: CourseComponent }
+    ]
+  },
   { path: '**', component: ErrorComponent } // error page, should be here, after all the other routes
 ]
 
@@ -44,4 +49,4 @@ const appRoutes: Routes = [ // here we define the routes
 })
 export class AppModule { }
 /* Angular Router
-https://www.youtube.com/watch?v=Yg7YsoW3QVk&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=67&pp=iAQB - Passing Fragments to Route */
+https://www.youtube.com/watch?v=8jDKknEXh3g&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=68&pp=iAQB - What is Child Routes in Angular */
