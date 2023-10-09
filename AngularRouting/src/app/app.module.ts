@@ -42,10 +42,4 @@ const appRoutes: Routes = [ // here we define the routes
 })
 export class AppModule { }
 /* Angular Router
-https://www.youtube.com/watch?v=OMX6Wcx2yZA&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=58&pp=iAQB - What is Routing in Angular
-https://www.youtube.com/watch?v=mmappaGCZ2s&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=59&pp=iAQB - Implement Page not found Route
-https://www.youtube.com/watch?v=7YLXCqT_EDc&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=60&pp=iAQB - Configuring navigation links for Route
-https://www.youtube.com/watch?v=n3lisFV1aN4&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=61&pp=iAQB - Styling Active link using routerLinkActive
-https://www.youtube.com/watch?v=qnTm0mk1R0Y&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=62&pp=iAQB - Absolute and Relative Route Paths
-https://www.youtube.com/watch?v=H-1Pb9zXmkY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=63&pp=iAQB - Navigate between Routes Programmatically
-https://www.youtube.com/watch?v=5k2ZUhMh6tA&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=64&pp=iAQB - Passing Parameters to Route */
+https://www.youtube.com/watch?v=b4zpvh_saic&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=65&pp=iAQB - Using Observable to Retrieve Route Parameter */
