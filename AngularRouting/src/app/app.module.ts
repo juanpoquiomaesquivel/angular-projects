@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -11,23 +10,9 @@ import { CoursesService } from './Services/courses.service';
 import { CourseComponent } from './courses/course/course.component';
 import { ErrorComponent } from './error/error.component';
 import { FormsModule } from '@angular/forms';
+import { AppRoutingModule } from './app-routing.module';
 
 
-const appRoutes: Routes = [ // here we define the routes
-  { path: '', component: HomeComponent },
-  // { path: '', redirectTo: 'Home', pathMatch: "full" },
-  { path: 'Home', component: HomeComponent },
-  { path: 'About', component: AboutComponent },
-  { path: 'Contact', component: ContactComponent },
-  { path: 'Courses', component: CoursesComponent },
-  // { path: 'Courses/Course/:id', component: CourseComponent },
-  {
-    path: 'Courses', children: [
-      { path: 'Course/:id', component: CourseComponent }
-    ]
-  },
-  { path: '**', component: ErrorComponent } // error page, should be here, after all the other routes
-]
 
 @NgModule({
   declarations: [
@@ -42,11 +27,11 @@ const appRoutes: Routes = [ // here we define the routes
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes) // it is important fot the routing
+    AppRoutingModule
   ],
   providers: [CoursesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
 /* Angular Router
-https://www.youtube.com/watch?v=8jDKknEXh3g&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=68&pp=iAQB - What is Child Routes in Angular */
+https://www.youtube.com/watch?v=4fP8YR_BG4Q&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=69&pp=iAQB - Creating a Route Module File */
