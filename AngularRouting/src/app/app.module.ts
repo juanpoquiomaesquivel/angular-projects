@@ -44,4 +44,4 @@ const appRoutes: Routes = [ // here we define the routes
 })
 export class AppModule { }
 /* Angular Router
-https://www.youtube.com/watch?v=bnDc-t-sK-A&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=66&pp=iAQB - Passing Query Parameters to Route */
+https://www.youtube.com/watch?v=Yg7YsoW3QVk&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=67&pp=iAQB - Passing Fragments to Route */
