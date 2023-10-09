@@ -10,6 +10,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { CoursesService } from './Services/courses.service';
 import { CourseComponent } from './courses/course/course.component';
 import { ErrorComponent } from './error/error.component';
+import { FormsModule } from '@angular/forms';
 
 
 const appRoutes: Routes = [ // here we define the routes
@@ -35,6 +36,7 @@ const appRoutes: Routes = [ // here we define the routes
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes) // it is important fot the routing
   ],
   providers: [CoursesService],
@@ -42,4 +44,4 @@ const appRoutes: Routes = [ // here we define the routes
 })
 export class AppModule { }
 /* Angular Router
-https://www.youtube.com/watch?v=b4zpvh_saic&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=65&pp=iAQB - Using Observable to Retrieve Route Parameter */
+https://www.youtube.com/watch?v=bnDc-t-sK-A&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=66&pp=iAQB - Passing Query Parameters to Route */
