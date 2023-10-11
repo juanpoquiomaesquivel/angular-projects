@@ -38,4 +38,4 @@ import { CourseResolveService } from './course-resolve.service';
 })
 export class AppModule { }
 /* Angular Route
-https://www.youtube.com/watch?v=5szUEstowGY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=74&pp=iAQB - Resolve Route Guard in Angular */
+https://www.youtube.com/watch?v=F3g9dHTuiVM&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=75&pp=iAQB - Navigation Events in Angular */

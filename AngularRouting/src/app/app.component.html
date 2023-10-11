@@ -32,7 +32,7 @@
             <li [routerLinkActive]="'active'">
                 <a routerLink="" fragment="Courses">Courses</a>
             </li> -->
-            <span style="float: right;">
+            <span style="float: right">
                 <li><a (click)="login()">Login</a></li>
                 <li><a (click)="logout()">Logout</a></li>
             </span>
@@ -44,5 +44,6 @@
         <app-contact id="Contact"></app-contact>
         <app-courses id="Courses"></app-courses> -->
         <router-outlet></router-outlet>
+        <div class="spinner" *ngIf="displayLoadingIndicator"></div>
     </div>
 </div>
