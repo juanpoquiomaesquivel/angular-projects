@@ -14,10 +14,10 @@ const appRoutes: Routes = [ // here we define the routes
     { path: 'Home', component: HomeComponent },
     { path: 'About', component: AboutComponent },
     { path: 'Contact', component: ContactComponent },
-    { path: 'Courses', component: CoursesComponent, canActivate: [CourseGuardService] },
+    { path: 'Courses', component: CoursesComponent },
     // { path: 'Courses/Course/:id', component: CourseComponent },
     {
-        path: 'Courses', children: [
+        path: 'Courses', canActivateChild: [CourseGuardService] ,children: [
             { path: 'Course/:id', component: CourseComponent }
         ]
     },

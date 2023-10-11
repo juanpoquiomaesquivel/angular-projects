@@ -36,5 +36,4 @@ import { AuthService } from './auth.service';
 })
 export class AppModule { }
 /* Angular Route
-https://www.youtube.com/watch?v=H-o7S8_NGdI&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=70&pp=iAQB - What is Route Guard in Angular
-https://www.youtube.com/watch?v=qnCBOHEkdMc&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=71&pp=iAQB - CanActivate Route Guard in Angular */
+https://www.youtube.com/watch?v=-8ZbF8XfgyY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=72&pp=iAQB - CanActivateChild Route Guard in Angular */
