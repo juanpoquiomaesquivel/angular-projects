@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CourseGuardService } from './course-guard.service';
 import { AuthService } from './auth.service';
 import { CanDeactivateGuardService } from './candeactivate-guard.service';
+import { CourseResolveService } from './course-resolve.service';
 
 
 
@@ -32,9 +33,9 @@ import { CanDeactivateGuardService } from './candeactivate-guard.service';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [CoursesService, CourseGuardService, AuthService, CanDeactivateGuardService],
+  providers: [CoursesService, CourseGuardService, AuthService, CanDeactivateGuardService, CourseResolveService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
 /* Angular Route
-https://www.youtube.com/watch?v=Bhl0_uHg6Pc&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=73&pp=iAQB - CanDeactivate Route Guard in Angular */
+https://www.youtube.com/watch?v=5szUEstowGY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=74&pp=iAQB - Resolve Route Guard in Angular */

@@ -8,6 +8,7 @@ import { ErrorComponent } from "./error/error.component";
 import { RouterModule, Routes } from "@angular/router";
 import { CourseGuardService } from "./course-guard.service";
 import { CanDeactivateGuardService } from "./candeactivate-guard.service";
+import { CourseResolveService } from "./course-resolve.service";
 
 const appRoutes: Routes = [ // here we define the routes
     { path: '', component: HomeComponent },
@@ -15,7 +16,7 @@ const appRoutes: Routes = [ // here we define the routes
     { path: 'Home', component: HomeComponent },
     { path: 'About', component: AboutComponent },
     { path: 'Contact', canDeactivate: [CanDeactivateGuardService] ,component: ContactComponent },
-    { path: 'Courses', component: CoursesComponent },
+    { path: 'Courses', component: CoursesComponent, resolve: {courses: CourseResolveService} },
     // { path: 'Courses/Course/:id', component: CourseComponent },
     {
         path: 'Courses', canActivateChild: [CourseGuardService] ,children: [
