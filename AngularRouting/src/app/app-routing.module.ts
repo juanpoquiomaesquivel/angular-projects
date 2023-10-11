@@ -7,13 +7,14 @@ import { ContactComponent } from "./contact/contact.component";
 import { ErrorComponent } from "./error/error.component";
 import { RouterModule, Routes } from "@angular/router";
 import { CourseGuardService } from "./course-guard.service";
+import { CanDeactivateGuardService } from "./candeactivate-guard.service";
 
 const appRoutes: Routes = [ // here we define the routes
     { path: '', component: HomeComponent },
     // { path: '', redirectTo: 'Home', pathMatch: "full" },
     { path: 'Home', component: HomeComponent },
     { path: 'About', component: AboutComponent },
-    { path: 'Contact', component: ContactComponent },
+    { path: 'Contact', canDeactivate: [CanDeactivateGuardService] ,component: ContactComponent },
     { path: 'Courses', component: CoursesComponent },
     // { path: 'Courses/Course/:id', component: CourseComponent },
     {

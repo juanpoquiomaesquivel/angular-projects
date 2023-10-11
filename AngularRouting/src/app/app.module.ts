@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { CourseGuardService } from './course-guard.service';
 import { AuthService } from './auth.service';
+import { CanDeactivateGuardService } from './candeactivate-guard.service';
 
 
 
@@ -31,9 +32,9 @@ import { AuthService } from './auth.service';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [CoursesService, CourseGuardService, AuthService],
+  providers: [CoursesService, CourseGuardService, AuthService, CanDeactivateGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
 /* Angular Route
-https://www.youtube.com/watch?v=-8ZbF8XfgyY&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=72&pp=iAQB - CanActivateChild Route Guard in Angular */
+https://www.youtube.com/watch?v=Bhl0_uHg6Pc&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=73&pp=iAQB - CanDeactivate Route Guard in Angular */
