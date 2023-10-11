@@ -11,6 +11,8 @@ import { CourseComponent } from './courses/course/course.component';
 import { ErrorComponent } from './error/error.component';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import { CourseGuardService } from './course-guard.service';
+import { AuthService } from './auth.service';
 
 
 
@@ -29,9 +31,10 @@ import { AppRoutingModule } from './app-routing.module';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [CoursesService],
+  providers: [CoursesService, CourseGuardService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-/* Angular Router
-https://www.youtube.com/watch?v=4fP8YR_BG4Q&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=69&pp=iAQB - Creating a Route Module File */
+/* Angular Route
+https://www.youtube.com/watch?v=H-o7S8_NGdI&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=70&pp=iAQB - What is Route Guard in Angular
+https://www.youtube.com/watch?v=qnCBOHEkdMc&list=PL1BztTYDF-QNrtkvjkT6Wjc8es7QB4Gty&index=71&pp=iAQB - CanActivate Route Guard in Angular */
